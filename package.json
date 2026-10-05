@@ -1,21 +1,21 @@
-{
-  "name": "api",
+﻿{
+  "name": "fleet-telemetry-api",
   "version": "1.0.0",
-  "description": "��a\u0000p\u0000i\u0000 \u0000f\u0000o\u0000r\u0000 \u0000t\u0000h\u0000e\u0000 \u0000v\u0000e\u0000h\u0000i\u0000c\u0000l\u0000e\u0000 \u0000f\u0000l\u0000e\u0000e\u0000t\u0000 \u0000a\u0000p\u0000p\u0000l\u0000i\u0000c\u0000a\u0000t\u0000i\u0000o\u0000n\u0000\r\u0000 \u0000t\u0000y\u0000p\u0000e\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000a\u0000w\u0000s\u0000\r\u0000 \u0000",
+  "description": "WebSocket handlers for the fleet telemetry stack: API Gateway connect and disconnect, vendor position broadcast, DynamoDB backed",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sameeranamarnath/vehiclefleettracker2023-api.git"
+    "url": "git+https://github.com/sameeranamarnath/fleet-telemetry-api.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sameeranamarnath/vehiclefleettracker2023-api/issues"
+    "url": "https://github.com/sameeranamarnath/fleet-telemetry-api/issues"
   },
-  "homepage": "https://github.com/sameeranamarnath/vehiclefleettracker2023-api#readme",
+  "homepage": "https://github.com/sameeranamarnath/fleet-telemetry-api#readme",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.458.0",
     "aws-sdk": "^2.1505.0",
